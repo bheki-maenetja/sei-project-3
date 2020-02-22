@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Sriracha&display=swap');
+
+* {
+  font-family: 'Sriracha', cursive;
+}
+
+button.button,
+input.input,
+select.input,
+textarea.textarea,
+input.button {
+  font-family: 'Lemonada', cursive;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  width: 100%;
+  color: black;
+  background-color: white;
+  padding: 20px 20px;
+  font-size: 14px;
+  font-family: 'Lemonada', cursive;
+}
+
+.upload-btn-wrapper input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.flex-container-column {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  button:first-of-type {
+    margin-right: 10px;
+  }
+  button:last-of-type {
+    margin-left: 10px;
+  }
+  button {
+    flex: 1;
+  }
+  .field {
+    flex: 1;
+  }
+}
+
+.columns-padding {
+  padding: 20px 0;
+}
+
+.section-padding {
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.profile-image {
+  margin: 0 auto;
+  width: 256px;
+  height: 256px;
+}
+
+.active-tab {
+  border-bottom: 1px solid #3273dc;
+  color: #3273dc;
+}
+
+.tab-select {
+  cursor: pointer;
+  font-size: 36px;
+  font-family: 'Modak', cursive;
+  color: white;
+}
+
+.tab-pointer {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.trips-block {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.plate {
+  background-color: darkslategrey;
+  opacity: 0.5;
+}
+
+.header-title {
+  font-size: 72px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.header-subtitle {
+  font-size: 36px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.background {
+  background-image: url('../../src/assets/back1.jpg');
+}
+
+.transparent {
+  opacity: 0.9;
+}
+
+.group-title {
+  font-size: 36px;
+  font-family: 'Pacifico', cursive;
+}
+
+.group-subtitle {
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+}
+
+.font-sizing {
+  font-size: 20px;
+}
+
+.profile-back {
+  background-image: url('../../src/assets/profileback.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.active-tab {
+  border-bottom: 1px solid darkslategrey;
+  color: darkslategrey;
+}
+.dropdown {
+  @media (min-width: 80%) {
+    width: 100%;
+  }
+}
