@@ -51,7 +51,7 @@ It was a group project and the first thing we did was brainstorming project idea
 
 We planned our project in advance, breaking down tasks and we used Trello to organise our work. 
 
-![trello](/readme-images/trello.png)
+![trello](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/trello.png)
 
 After that I have built wireframes using Balsamiq.
 
@@ -192,3 +192,6 @@ Blockers:
 * Liking trips/marking them as "interested in"
 * Edit your own profile
 * As I said before for most of the features backend is already set up, need to work on frontend to implement
+
+## Author
+* This readme has been modified to reflect changes to my personal version of this project. It's original author is [Nikita Lukjanov](https://github.com/nlukjanov)
