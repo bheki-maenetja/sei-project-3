@@ -3,6 +3,7 @@
 # **Project 3: Travelr**
 ## About the author
 * This readme has been modified to reflect changes to my personal version of this project. It's original author is [Nikita Lukjanov](https://github.com/nlukjanov)
+* You can view the original readme [here](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/README.md)
 ## Overview
 Travelr - is an online website for searching travel partners. Users can browse and join trips that other users have created or create their own.
 
