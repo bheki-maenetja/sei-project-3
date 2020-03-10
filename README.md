@@ -55,13 +55,13 @@ We planned our project in advance, breaking down tasks and we used Trello to org
 
 After that I have built wireframes using Balsamiq.
 
-![wireframes1](/readme-images/home-mobile.png)
-![wireframes2](/readme-images/login.png)
-![wireframes3](/readme-images/register.png)
-![wireframes4](/readme-images/my-account-mobile.png)
+![wireframes1](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/home-mobile.png)
+![wireframes2](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/login.png)
+![wireframes3](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/register.png)
+![wireframes4](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/my-account-mobile.png)
 
-![wireframes5](/readme-images/home-web.png)
-![wireframes6](/readme-images/my-account-web.png)
+![wireframes5](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/home-web.png)
+![wireframes6](https://github.com/nlukjanov/SEI-45-Project-3-MERN/blob/master/readme-images/my-account-web.png)
 
 To maximise learning, I suggested rotating, so that each of us worked on models, controllers and frontend. I have built: user model, user controller, authentication, homepage component with search and filtering, my account page wit tabs, set up auto testing using Mocha, Chai and Supertest.
 
