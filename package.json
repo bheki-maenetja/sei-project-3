@@ -8,7 +8,6 @@
     "start:back": "nodemon index.js",
     "seed": "node db/seeds.js",
     "test": "nodemon --exec mocha test/**/*_spec.js --require test/testHelper --recursive --exit",
-    "serve": "webpack-dev-server --mode=development",
     "build": "webpack -p",
     "start": "node index.js"
   },
