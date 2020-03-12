@@ -10,7 +10,7 @@
     "test": "nodemon --exec mocha test/**/*_spec.js --require test/testHelper --recursive --exit",
     "serve": "webpack-dev-server --mode=development",
     "build": "webpack -p",
-    "start": "node index"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
