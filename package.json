@@ -5,9 +5,12 @@
   "license": "MIT",
   "scripts": {
     "start:front": "webpack-dev-server --mode-development",
-    "start:back": "nodemon backend/index.js",
-    "seed": "node backend/db/seeds.js",
-    "test": "nodemon --exec mocha test/**/*_spec.js --require test/testHelper --recursive --exit"
+    "start:back": "nodemon index.js",
+    "seed": "node db/seeds.js",
+    "test": "nodemon --exec mocha test/**/*_spec.js --require test/testHelper --recursive --exit",
+    "serve": "webpack-dev-server --mode=development",
+    "build": "webpack -p",
+    "start": "node index"
   },
   "dependencies": {
     "axios": "^0.19.2",
