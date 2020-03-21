@@ -13,7 +13,7 @@ The goal was to build a full stack web application using the MERN software stack
 
 Timeframe: 6 days.
 
-- View the deployed version of the app [here](https://travel-with-travelr.herokuapp.com/). 
+- View the deployed version of the app [here](https://my-travelr-site.herokuapp.com/). 
 - This is my personal copy of the group project. You can view the original [here](https://github.com/nlukjanov/SEI-45-Project-3-MERN).
 
 
